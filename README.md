@@ -68,7 +68,7 @@ Please check the script and configuration file for dataset paths, batch size, le
 
 ## Pretrained Models
 
-The trained FMINet checkpoints can be downloaded from the link.
+Download the trained FMINet checkpoints.
 
 ```text
 checkpoints/
