@@ -52,27 +52,18 @@ datasets/
 
 Please modify the dataset paths in the configuration files according to your local environment.
 
-## Training
+## How to run
 
 Before training, download the required pretrained backbone weights and place them in the corresponding directory.
 
 Example:
 
 ```bash
-python train.py
+python main.py
 ```
 
-Please check the training script and configuration file for dataset paths, batch size, learning rate, number of epochs, and pretrained model paths.
+Please check the script and configuration file for dataset paths, batch size, learning rate, number of epochs, and pretrained model paths.
 
-## Testing
-
-Run the inference script with the trained checkpoint:
-
-```bash
-python test.py
-```
-
-The predicted saliency maps will be saved to the configured output directory.
 
 
 ## Pretrained Models
